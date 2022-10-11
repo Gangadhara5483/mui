@@ -1,0 +1,33 @@
+.admin-table {
+    /* display: flex; */
+    width: 100%;
+    padding: 20px;
+}
+.admin-table-header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.actions {
+    margin-left: auto;
+}
+.admin-table-columns-headers{
+    font-weight: bold;
+    color: hsl(33deg 79% 62%);
+    background-color: #faf6f2;
+    border-bottom: none !important;;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.admin-table-virtualScroller::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.admin-table-virtualScroller {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.admin-table-footerContainer{
+    display: none !important;
+}
